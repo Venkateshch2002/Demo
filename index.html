@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AllianceProIT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+<div class="container">
+    <a href="#home" class="logo">
+        <img src="images/logo.png" alt="AllianceProITLOGO" />
+    </a>
+    <nav>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+</div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container">
+    <span class="wave-text">
+        <h2 class="wave-text">
+        <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+        <span>&nbsp;</span>
+        <span>t</span><span>o</span>
+        <span>&nbsp;</span>
+        <span>A</span><span>l</span><span>l</span><span>i</span><span>a</span><span>n</span><span>c</span><span>e</span><span>P</span><span>r</span><span>o</span><span>I</span><span>T</span>
+        </h2>
+    </span>
+
+
+    <p>We deliver smart digital solutions that drive business success.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+
+    <!-- Moving Cards Start -->
+    <div class="photo-carousel">
+      <div class="carousel-track">
+        <img src="images/office1.jpg" alt="Office" />
+        <img src="images/team.jpg" alt="Team" />
+        <img src="images/workspace.jpg" alt="Workspace" />
+        <img src="images/event.jpg" alt="Event" />
+        <!-- Repeat for seamless scrolling -->
+        <img src="images/office1.jpg" alt="Office" />
+        <img src="images/team.jpg" alt="Team" />
+      </div>
+    </div>
+    <!-- Moving Cards End -->
+
+  </div>
+</section>
+
+
+<section id="about">
+  <div class="container">
+    <h2 class="glow-text">Who Are We?</h2>
+    <div class="about-cards">
+      <div class="card-flip">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>Tech Wizards</h3>
+            <p>Hover Me 😎</p>
+          </div>
+          <div class="card-back">
+            <p>We automate, innovate, and elevate digital businesses globally 🌍</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-flip">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>Cloud Ninjas</h3>
+            <p>We float ☁️</p>
+          </div>
+          <div class="card-back">
+            <p>Mastering Azure, DevOps, and AI — we build next-gen solutions ⚙️🤖</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-flip">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>AllianceProIT</h3>
+            <p>🚀 Power On</p>
+          </div>
+          <div class="card-back">
+            <p>Innovation is our DNA. You dream it, we code it. 💡💻</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YourCompany. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
